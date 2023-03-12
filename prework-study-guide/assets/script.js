@@ -6,18 +6,21 @@
 // }
 
 var list = ['HTML', 'CSS', 'Git', 'JavaScript'];
-var randomTopic = list[Math.floor(Math.random()*list.length)];
+   
+
+//createing random selction of topic
+
+var randomTopic = list[Math.floor(Math.random() * list.length)];
 
 
 function listTopics() {
 
-    for (var x=0; x < list.length; x++) {
+    for (var x = 0; x < list.length; x++) {
 
         console.log(list[x]);
 
     }
 
-    //createing random selction of topic
 
 }
 
